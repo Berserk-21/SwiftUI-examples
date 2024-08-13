@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ItemDetail: View {
     
+    // The value is set at the environment level.
+    // @EnvironmentObject tells SwiftUI to watch for any changes and refresh its UI.
+    @EnvironmentObject var order: Order
+    
     let item: MenuItem
     
     var body: some View {
@@ -26,6 +30,10 @@ struct ItemDetail: View {
             }
             Text(item.description)
                 .padding()
+            Button("Order This") {
+                order.add(item: item)
+            }
+            .buttonStyle(.borderedProminent)
             Spacer()
         }
         .navigationTitle(item.name)
@@ -37,6 +45,7 @@ struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
             ItemDetail(item: MenuItem.example)
+                .environmentObject(Order())
         }
     }
 }
