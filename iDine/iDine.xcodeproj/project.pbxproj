@@ -47,7 +47,6 @@
 		2CAE39132C6B48B800FC7F4E = {
 			isa = PBXGroup;
 			children = (
-				2CAE39372C6B52CF00FC7F4E /* ItemDetail.swift */,
 				2CAE391E2C6B48B800FC7F4E /* iDine */,
 				2CAE391D2C6B48B800FC7F4E /* Products */,
 			);
@@ -67,6 +66,7 @@
 				2CAE391F2C6B48B800FC7F4E /* iDineApp.swift */,
 				2CAE39212C6B48B800FC7F4E /* ContentView.swift */,
 				2CAE39352C6B4DAC00FC7F4E /* ItemRow.swift */,
+				2CAE39372C6B52CF00FC7F4E /* ItemDetail.swift */,
 				2CAE392D2C6B498B00FC7F4E /* Helper.swift */,
 				2CAE39302C6B498B00FC7F4E /* menu.json */,
 				2CAE392E2C6B498B00FC7F4E /* Menu.swift */,
