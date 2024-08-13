@@ -16,7 +16,7 @@ struct CheckoutView: View {
     @State private var paymentType = "Cash"
     
     var body: some View {
-        VStack {
+        Form {
             Section {
                 // Use $property for two ways binding (read and write).
                 Picker("How do you want to pay?", selection: $paymentType) {
