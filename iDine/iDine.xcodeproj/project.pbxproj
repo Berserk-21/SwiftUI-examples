@@ -19,6 +19,7 @@
 		2CAE39382C6B52CF00FC7F4E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39372C6B52CF00FC7F4E /* ItemDetail.swift */; };
 		2CAE393A2C6B5B3B00FC7F4E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39392C6B5B3B00FC7F4E /* OrderView.swift */; };
 		2CAE393E2C6B5C4C00FC7F4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE393D2C6B5C4C00FC7F4E /* MainView.swift */; };
+		2CAE39402C6B5F4500FC7F4E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE393F2C6B5F4500FC7F4E /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2CAE39372C6B52CF00FC7F4E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		2CAE39392C6B5B3B00FC7F4E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		2CAE393D2C6B5C4C00FC7F4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2CAE393F2C6B5F4500FC7F4E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				2CAE391F2C6B48B800FC7F4E /* iDineApp.swift */,
 				2CAE39212C6B48B800FC7F4E /* ContentView.swift */,
 				2CAE393D2C6B5C4C00FC7F4E /* MainView.swift */,
+				2CAE393F2C6B5F4500FC7F4E /* CheckoutView.swift */,
 				2CAE39352C6B4DAC00FC7F4E /* ItemRow.swift */,
 				2CAE39372C6B52CF00FC7F4E /* ItemDetail.swift */,
 				2CAE392D2C6B498B00FC7F4E /* Helper.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				2CAE39382C6B52CF00FC7F4E /* ItemDetail.swift in Sources */,
 				2CAE393E2C6B5C4C00FC7F4E /* MainView.swift in Sources */,
+				2CAE39402C6B5F4500FC7F4E /* CheckoutView.swift in Sources */,
 				2CAE393A2C6B5B3B00FC7F4E /* OrderView.swift in Sources */,
 				2CAE39222C6B48B800FC7F4E /* ContentView.swift in Sources */,
 				2CAE39202C6B48B800FC7F4E /* iDineApp.swift in Sources */,

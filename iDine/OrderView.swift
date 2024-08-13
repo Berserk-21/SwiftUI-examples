@@ -13,7 +13,7 @@ struct OrderView: View {
     
     var body: some View {
         NavigationStack {
-            List {
+            Form {
                 Section {
                     ForEach(order.items) { item in
                         HStack {
@@ -26,7 +26,7 @@ struct OrderView: View {
                 
                 Section {
                     NavigationLink("Place Order") {
-                        Text("Check out")
+                        CheckoutView()
                     }
                 }
             }
