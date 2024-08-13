@@ -13,7 +13,7 @@ struct OrderView: View {
     
     var body: some View {
         NavigationStack {
-            Form {
+            List {
                 Section {
                     ForEach(order.items) { item in
                         HStack {
