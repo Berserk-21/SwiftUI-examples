@@ -12,6 +12,7 @@ struct ItemDetail: View {
     // The value is set at the environment level.
     // @EnvironmentObject tells SwiftUI to watch for any changes and refresh its UI.
     @EnvironmentObject var order: Order
+    @EnvironmentObject var favorites: Favorites
     
     let item: MenuItem
     
@@ -41,6 +42,13 @@ struct ItemDetail: View {
             .font(.headline)
             Spacer()
         }
+        .toolbar(content: {
+            Button {
+                favorites.save(item: item)
+            } label: {
+                Image(systemName: favorites.isSaved(item: item) ? "heart.fill" : "heart")
+            }
+        })
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
     }
