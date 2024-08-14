@@ -21,6 +21,10 @@ struct ContentView: View {
             Section("Attributed string") {
                 AttributedStringView()
             }
+            
+            Section("Multiline") {
+                MultilineView()
+            }
         }
     }
 }
