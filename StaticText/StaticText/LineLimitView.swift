@@ -38,3 +38,7 @@ struct LineLimitView: View {
             .truncationMode(.middle)
     }
 }
+
+#Preview {
+    LineLimitView()
+}
