@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        LineLimitView()
-        FontView()
+        List {
+            Section("Line limit") {
+                LineLimitView()
+            }
+            
+            Section("Font style and size") {
+                FontView()
+            }
+        }
     }
 }
 
