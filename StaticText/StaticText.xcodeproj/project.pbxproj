@@ -15,6 +15,7 @@
 		2CAE39622C6CA7A100FC7F4E /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39612C6CA7A100FC7F4E /* FontView.swift */; };
 		2CAE39642C6CABE400FC7F4E /* AttributedStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */; };
 		2CAE39662C6CB50900FC7F4E /* MultilineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39652C6CB50900FC7F4E /* MultilineView.swift */; };
+		2CAE39682C6CB64E00FC7F4E /* FormatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39672C6CB64E00FC7F4E /* FormatTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2CAE39612C6CA7A100FC7F4E /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
 		2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringView.swift; sourceTree = "<group>"; };
 		2CAE39652C6CB50900FC7F4E /* MultilineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineView.swift; sourceTree = "<group>"; };
+		2CAE39672C6CB64E00FC7F4E /* FormatTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2CAE39612C6CA7A100FC7F4E /* FontView.swift */,
 				2CAE39652C6CB50900FC7F4E /* MultilineView.swift */,
 				2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */,
+				2CAE39672C6CB64E00FC7F4E /* FormatTextView.swift */,
 				2CAE39552C6CA3B600FC7F4E /* Assets.xcassets */,
 				2CAE39572C6CA3B600FC7F4E /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAE39602C6CA72D00FC7F4E /* LineLimitView.swift in Sources */,
+				2CAE39682C6CB64E00FC7F4E /* FormatTextView.swift in Sources */,
 				2CAE39542C6CA3B400FC7F4E /* ContentView.swift in Sources */,
 				2CAE39662C6CB50900FC7F4E /* MultilineView.swift in Sources */,
 				2CAE39522C6CA3B400FC7F4E /* StaticTextApp.swift in Sources */,

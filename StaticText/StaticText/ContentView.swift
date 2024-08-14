@@ -25,6 +25,10 @@ struct ContentView: View {
             Section("Multiline") {
                 MultilineView()
             }
+            
+            Section("Text view format") {
+                FormatTextView()
+            }
         }
     }
 }
