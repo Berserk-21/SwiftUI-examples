@@ -13,6 +13,7 @@
 		2CAE39592C6CA3B600FC7F4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE39582C6CA3B600FC7F4E /* Preview Assets.xcassets */; };
 		2CAE39602C6CA72D00FC7F4E /* LineLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE395F2C6CA72D00FC7F4E /* LineLimitView.swift */; };
 		2CAE39622C6CA7A100FC7F4E /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39612C6CA7A100FC7F4E /* FontView.swift */; };
+		2CAE39642C6CABE400FC7F4E /* AttributedStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2CAE39582C6CA3B600FC7F4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CAE395F2C6CA72D00FC7F4E /* LineLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLimitView.swift; sourceTree = "<group>"; };
 		2CAE39612C6CA7A100FC7F4E /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2CAE39532C6CA3B400FC7F4E /* ContentView.swift */,
 				2CAE395F2C6CA72D00FC7F4E /* LineLimitView.swift */,
 				2CAE39612C6CA7A100FC7F4E /* FontView.swift */,
+				2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */,
 				2CAE39552C6CA3B600FC7F4E /* Assets.xcassets */,
 				2CAE39572C6CA3B600FC7F4E /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				2CAE39542C6CA3B400FC7F4E /* ContentView.swift in Sources */,
 				2CAE39522C6CA3B400FC7F4E /* StaticTextApp.swift in Sources */,
 				2CAE39622C6CA7A100FC7F4E /* FontView.swift in Sources */,
+				2CAE39642C6CABE400FC7F4E /* AttributedStringView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

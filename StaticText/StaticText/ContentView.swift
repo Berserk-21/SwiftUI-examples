@@ -17,6 +17,10 @@ struct ContentView: View {
             Section("Font style and size") {
                 FontView()
             }
+            
+            Section("Attributed string") {
+                AttributedStringView()
+            }
         }
     }
 }
