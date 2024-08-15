@@ -33,6 +33,14 @@ struct ContentView: View {
             Section("Letter spacing") {
                 LetterSpacingView()
             }
+            
+            Section("Date format") {
+                FormatDateView()
+            }
+            
+            Section("TextField") {
+                TextFieldView()
+            }
         }
     }
 }
