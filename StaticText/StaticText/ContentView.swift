@@ -41,6 +41,10 @@ struct ContentView: View {
             Section("TextField") {
                 TextFieldView()
             }
+            
+            Section("Label") {
+                LabelView()
+            }
         }
     }
 }

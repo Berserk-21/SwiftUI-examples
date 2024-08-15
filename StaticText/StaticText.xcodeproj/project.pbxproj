@@ -19,6 +19,7 @@
 		2CD96C862C6DED5400260A76 /* LetterSpacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD96C852C6DED5400260A76 /* LetterSpacingView.swift */; };
 		2CD96C882C6DEFD100260A76 /* FormatDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD96C872C6DEFD100260A76 /* FormatDateView.swift */; };
 		2CD96C8A2C6DF0B400260A76 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD96C892C6DF0B400260A76 /* TextFieldView.swift */; };
+		2CD96C8C2C6DF29400260A76 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD96C8B2C6DF29400260A76 /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2CD96C852C6DED5400260A76 /* LetterSpacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingView.swift; sourceTree = "<group>"; };
 		2CD96C872C6DEFD100260A76 /* FormatDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDateView.swift; sourceTree = "<group>"; };
 		2CD96C892C6DF0B400260A76 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		2CD96C8B2C6DF29400260A76 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				2CAE395F2C6CA72D00FC7F4E /* LineLimitView.swift */,
 				2CAE39612C6CA7A100FC7F4E /* FontView.swift */,
 				2CD96C892C6DF0B400260A76 /* TextFieldView.swift */,
+				2CD96C8B2C6DF29400260A76 /* LabelView.swift */,
 				2CAE39652C6CB50900FC7F4E /* MultilineView.swift */,
 				2CAE39632C6CABE400FC7F4E /* AttributedStringView.swift */,
 				2CAE39672C6CB64E00FC7F4E /* FormatTextView.swift */,
@@ -168,6 +171,7 @@
 				2CAE39542C6CA3B400FC7F4E /* ContentView.swift in Sources */,
 				2CD96C8A2C6DF0B400260A76 /* TextFieldView.swift in Sources */,
 				2CAE39662C6CB50900FC7F4E /* MultilineView.swift in Sources */,
+				2CD96C8C2C6DF29400260A76 /* LabelView.swift in Sources */,
 				2CAE39522C6CA3B400FC7F4E /* StaticTextApp.swift in Sources */,
 				2CAE39622C6CA7A100FC7F4E /* FontView.swift in Sources */,
 				2CAE39642C6CABE400FC7F4E /* AttributedStringView.swift in Sources */,
