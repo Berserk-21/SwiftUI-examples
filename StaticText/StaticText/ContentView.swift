@@ -29,6 +29,10 @@ struct ContentView: View {
             Section("Text view format") {
                 FormatTextView()
             }
+            
+            Section("Letter spacing") {
+                LetterSpacingView()
+            }
         }
     }
 }
